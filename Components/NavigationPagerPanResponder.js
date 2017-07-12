@@ -16,7 +16,7 @@ const NavigationAbstractPanResponder = require('../NavigationAbstractPanResponde
 const NavigationCardStackPanResponder = require('./NavigationCardStackPanResponder');
 const I18nManager = require('react-native').I18nManager;
 
-const clamp = require('clamp');
+const clamp = require('./clamp');
 
 import type {
   NavigationPanPanHandlers,
